@@ -1,0 +1,2 @@
+# VT_action_angle
+This code consists of two files. orbit_int_and_AA.ipynb simulates stellar orbits given certain constraints (eg. orbits evolve under a Staeckel potential) and then procedes to compute the action angle variables of those orbits. The angle variable space is combined to make a set of 3D points which are fed into the paravt_final.ipynb to perform voronoi tessellations on those points. Currently, it does that for each quarter of the maximum orbit time which is 1 Gyr. It then plots the voronoi volumes distribution to look at its evolution as the orbits evolve.
